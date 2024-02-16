@@ -20,15 +20,9 @@ class Main {
         try (// deklarasi scanner untuk input
                 Scanner sc = new Scanner(System.in)) {
             /*
-             * - looping while dengan syarat masukkan user bukan 5 yang berarti exit dari
-             * program
-             * - looping ini bekerja untuk menentukan apa yang diinginkan oleh user, ada 5
-             * - query yaitu create, read, update dan exit
-             * - untuk menentukan query yang sesuai dengan yang diminta user saya
-             * menggunakan
-             * switch yang sesuai dengan menu,
-             * 1 untuk create, 2 untuk read, 3 untuk update, 4 untuk delete, dan 5 untuk
-             * exit
+             * - looping while dengan syarat masukkan user bukan 5 yang berarti exit dari program
+             * - looping ini bekerja untuk menentukan apa yang diinginkan oleh user, ada 5 query yaitu create, read, update dan exit
+             * - untuk menentukan query yang sesuai dengan yang diminta user saya menggunakan switch yang sesuai dengan menu, 1 untuk create, 2 untuk read, 3 untuk update, 4 untuk delete, dan 5 untuk exit
              */
             while (n != 5) {
 
