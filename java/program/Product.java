@@ -1,5 +1,5 @@
 // deklarasi class
-class Product extends Shirt {
+class Product {
 
     // attibut private bertipe data string
     private String idProduct;
