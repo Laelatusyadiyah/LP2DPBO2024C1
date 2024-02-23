@@ -15,7 +15,7 @@ class Main {
         String gender;
 
         // deklrasi list menggunakan library
-        ArrayList<Product> list = new ArrayList<>();
+        ArrayList<Shirt> list = new ArrayList<>();
 
         try (// deklarasi scanner untuk input
                 Scanner sc = new Scanner(System.in)) {
@@ -65,7 +65,7 @@ class Main {
                         gender = sc.nextLine();
 
                         // instansiasi object tanpa parameter
-                        Product temp = new Product();
+                        Shirt temp = new Shirt();
 
                         // inputan user dimasukkan ke dalam temp dulu menggunakan setter masing-masing
                         // attribut
@@ -155,7 +155,7 @@ class Main {
                                     System.out.print("Gender        : ");
                                     gender = sc.nextLine();
 
-                                    temp = new Product();
+                                    temp = new Shirt();
                                     temp.set_idProduct(idProduct);
                                     temp.set_nama(nama);
                                     temp.set_brand(brand);
